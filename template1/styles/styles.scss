@@ -1,0 +1,43 @@
+@import "breakpoints";
+@import 'common';
+@import 'variables';
+@import 'header';
+@import 'headline';
+@import 'about';
+@import 'tips';
+@import 'audience';
+@import 'features';
+@import 'inbox';
+@import 'customers';
+@import 'order';
+@import 'feedback';
+@import 'footer';
+@import 'hiring';
+@import 'audience';
+@import 'communications';
+
+*{
+   box-sizing: border-box;
+}
+
+html {
+   font-size: 16px;
+   font-family: 'Work Sans', sans-serif;
+   color: #2B292D;
+}
+a {
+   text-decoration: none;
+}
+
+.page{
+   width: 100%;
+
+   @include for-large-up {
+      max-width: 1400px;
+      margin: auto;
+      margin-bottom: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+}

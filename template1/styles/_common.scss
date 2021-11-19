@@ -1,0 +1,49 @@
+.action__button {
+   background-color: #3040c4;
+   color: #fff;
+   height: 48px;
+   font-size: 18px;
+   font-weight: 700;
+   border-radius: 2px;
+   border: none;
+   margin-top: 15px;
+   width: 158px;
+
+   @include for-large-up {
+    margin: 0;
+  }
+ 
+   .hide_desktop {
+     @include for-large-up {
+       display: none;
+     }
+   }
+ 
+   .hide_mobile {
+     @include for-large-down {
+       display: none;
+     }
+   }
+ }
+ .learn__button {
+   background-color: #fff;
+   color: #3040c4;
+   height: 48px;
+   font-size: 18px;
+   font-weight: 700;
+   border-radius: 2px;
+   border: none;
+   margin-top: 15px;
+ 
+   .hide_desktop {
+     @include for-large-up {
+       display: none;
+     }
+   }
+ 
+   .hide_mobile {
+     @include for-large-down {
+       display: none;
+     }
+   }
+ }
