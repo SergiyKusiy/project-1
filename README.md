@@ -1,5 +1,5 @@
 # Layout 1
-## [Site link](https://github.com/SergiyKusiy/myLayout)
+## [Site link](https://github.com/SergiyKusiy/myLayout/index.html)
 Layout supports mobile(320px) and desktop(1400px) versions
 
 ## The tech stack is:
