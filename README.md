@@ -1,8 +1,8 @@
 # Layout 1
 <<<<<<< HEAD
-## [Site link](https://SergiyKusiy.github.io/myLayout)
+## [Site link](https://SergiyKusiy.github.io/project-1)
 =======
-## [Site link](https://github.com/SergiyKusiy/myLayout/index.html)
+## [Site link](https://github.com/SergiyKusiy/project-1/index.html)
 >>>>>>> 3da82660a64a711cd3b73f68091aa97e32512e63
 Layout supports mobile(320px) and desktop(1400px) versions
 
